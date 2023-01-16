@@ -394,3 +394,36 @@ body {
     bottom: 0;
     left: -3px;
 }
+
+#stoveLength {
+    width: 1px;
+    height: 50px;
+    background-color: #222;
+    position: absolute;
+    bottom: -45px;
+    right: -55px;
+    display: flex;
+    justify-content: center;
+    writing-mode: tb-rl;
+    transform: skew(-45deg) rotate(180deg);
+}
+
+#stoveLength::after {
+    content: '';
+    width: 8px;
+    height: 1px;
+    background-color: #222;
+    position: absolute;
+    top: 0;
+    left: -3px;
+}
+
+#stoveLength::before {
+    content: '';
+    width: 8px;
+    height: 1px;
+    background-color: #222;
+    position: absolute;
+    bottom: 0;
+    left: -3px;
+}
